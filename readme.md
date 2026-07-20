@@ -8,8 +8,7 @@ I just wanted to test how the parsing and CSV formatting worked.
 
 ## Files
 
-`translations/example.csv` is the example from
-https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_spreadsheets.html#specifying-plural-forms
+`translations/example.csv` is the example from the [Godot docs](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_spreadsheets.html#specifying-plural-forms)
 
 `translations/main.csv` has my demo translations
 
@@ -40,3 +39,6 @@ columns empty. You **may not** fill these with copies of the singular and plural
 key - the generated `.translation` files will fail to load the pluralized
 strings at runtime (bug in Godot's CSV parser? should probably get caught at
 parse time).
+
+Remember to add the translations in your Project Settings! This is covered in
+the [Godot docs](https://docs.godotengine.org/en/stable/tutorials/i18n/internationalizing_games.html#configuring-the-imported-translation).
