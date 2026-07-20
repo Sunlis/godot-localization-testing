@@ -7,3 +7,6 @@ output_label,,Output:,Production:,Вывод:
 output_content,output_content_plural,There is %d apple,Il y a %d pomme,Есть %d яблоко
 ,,There are %d apples,Il y a %d pommes,Есть %d яблока
 ,,,,Есть %d яблок
+goal_content,goal_content_plural,I still need %d apple,Il me manque encore %d pomme,Мне всё ещё нужно %d яблоко.
+,,I still need %d apples,Il me manque encore %d pommes,Мне ещё нужно %d яблока.
+,,,,Мне ещё нужно %d яблок

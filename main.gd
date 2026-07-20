@@ -7,6 +7,7 @@ extends Control
 @onready var amount_input: SpinBox = %amount_input
 @onready var output_label: Label = %output_label
 @onready var output_area: Label = %output_area
+@onready var goal_label: Label = %goal_label
 
 const LANGUAGES = [
   "en",
@@ -28,6 +29,8 @@ func _update():
   amount_label.text = tr("amount_label")
   output_label.text = tr("output_label")
   output_area.text = tr_n("output_content", "output_content_plural", _value) % _value
+  var remaining = 20 - _value
+  goal_label.text = tr_n("goal_content", "goal_content_plural", remaining) % remaining
 
 func _amount_input_changed(val: int):
   _value = val

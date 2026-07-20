@@ -11,7 +11,9 @@ I just wanted to test how the parsing and CSV formatting worked.
 `translations/example.csv` is the example from
 https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_spreadsheets.html#specifying-plural-forms
 
-`translations/main.csv` has my demo translations (absolutely not correct translations)
+`translations/main.csv` has my demo translations
+
+![alt text](table.png)
 
 ## Lessons learned
 
