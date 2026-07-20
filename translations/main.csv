@@ -1,0 +1,9 @@
+key,?plural,en,fr,ru
+?pluralrule,,nplurals=2; plural=(n != 1);,nplurals=2; plural=(n > 1);,nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
+header_label,,Translations testing,Test de traduction,Тестирование переводов
+language_label,,Language:,Langue:,Язык:
+amount_label,,Amount:,Quantité:,Количество:
+output_label,,Output:,Production:,Вывод:
+output_content,output_content_plural,There is %d apple,Il y a %d pomme,Есть %d яблоко
+,,There are %d apples,Il y a %d pommes,Есть %d яблока
+,,,,Есть %d яблок
